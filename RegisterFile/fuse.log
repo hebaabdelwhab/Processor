@@ -1,0 +1,67 @@
+Running: E:\XilinxFiles\14.5\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/RegisterFileTest_isim_beh.exe -prj C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/RegisterFileTest_beh.prj work.RegisterFileTest 
+ISim P.58f (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/TheRegister.vhd" into library work
+Parsing VHDL file "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/TheMux32.vhd" into library work
+Parsing VHDL file "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/TheDecoder.vhd" into library work
+Parsing VHDL file "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/Reg.vhd" into library work
+Parsing VHDL file "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/MyDecoder.vhd" into library work
+Parsing VHDL file "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/Mux32.vhd" into library work
+Parsing VHDL file "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/ReadRegister.vhd" into library work
+WARNING:HDLCompiler:946 - "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/ReadRegister.vhd" Line 61: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/ReadRegister.vhd" Line 62: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/ReadRegister.vhd" Line 63: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/ReadRegister.vhd" Line 64: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/ReadRegister.vhd" Line 65: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/ReadRegister.vhd" Line 66: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/ReadRegister.vhd" Line 67: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/ReadRegister.vhd" Line 68: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/ReadRegister.vhd" Line 69: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/ReadRegister.vhd" Line 70: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/ReadRegister.vhd" Line 71: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/ReadRegister.vhd" Line 72: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/ReadRegister.vhd" Line 73: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/ReadRegister.vhd" Line 74: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/ReadRegister.vhd" Line 75: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/ReadRegister.vhd" Line 76: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/ReadRegister.vhd" Line 77: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/ReadRegister.vhd" Line 78: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/ReadRegister.vhd" Line 79: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/ReadRegister.vhd" Line 80: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/ReadRegister.vhd" Line 81: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/ReadRegister.vhd" Line 82: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/ReadRegister.vhd" Line 83: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/ReadRegister.vhd" Line 84: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/ReadRegister.vhd" Line 85: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/ReadRegister.vhd" Line 86: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/ReadRegister.vhd" Line 87: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/ReadRegister.vhd" Line 88: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/ReadRegister.vhd" Line 89: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/ReadRegister.vhd" Line 90: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/ReadRegister.vhd" Line 91: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/ReadRegister.vhd" Line 92: Actual for formal port lod is neither a static name nor a globally static expression
+Parsing VHDL file "C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/RegisterFileTest.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 161824 KB
+Fuse CPU Usage: 296 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling package themux32
+Compiling package thedecoder
+Compiling package theregister
+Compiling architecture behavioral of entity MyDecoder [\MyDecoder(32)\]
+Compiling architecture behavioral of entity Reg [\Reg(32)\]
+Compiling architecture behavioral of entity Mux32 [mux32_default]
+Compiling architecture behavioral of entity RegisterFile [\RegisterFile(32)\]
+Compiling architecture behavior of entity registerfiletest
+Time Resolution for simulation is 1ps.
+Compiled 17 VHDL Units
+Built simulation executable C:/Users/pc/Desktop/ProjectArchPhase1/RegisterFile/RegisterFileTest_isim_beh.exe
+Fuse Memory Usage: 190348 KB
+Fuse CPU Usage: 624 ms

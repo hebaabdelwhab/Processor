@@ -1,0 +1,8 @@
+vhdl work "TheRegister.vhd"
+vhdl work "TheMux32.vhd"
+vhdl work "TheDecoder.vhd"
+vhdl work "Reg.vhd"
+vhdl work "MyDecoder.vhd"
+vhdl work "Mux32.vhd"
+vhdl work "ReadRegister.vhd"
+vhdl work "RegisterFileTest.vhd"

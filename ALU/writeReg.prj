@@ -1,0 +1,5 @@
+vhdl work "MyDecoder.vhd"
+vhdl work "GenReg.vhd"
+vhdl work "GenericReg.vhd"
+vhdl work "Decoder.vhd"
+vhdl work "writeReg.vhd"

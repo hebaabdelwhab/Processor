@@ -1,0 +1,16 @@
+------------------ 2x1 MUX Package -----------------
+
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+
+PACKAGE TheMux2 IS
+	COMPONENT Mux2 IS
+		PORT (I0: IN  STD_LOGIC;
+				I1: IN  STD_LOGIC;
+				O : OUT STD_LOGIC;
+				S : IN  STD_LOGIC);
+	END COMPONENT;
+END TheMux2;
+
+PACKAGE BODY TheMux2 IS 
+END TheMux2;

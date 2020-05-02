@@ -1,0 +1,372 @@
+Release 14.5 - xst P.58f (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Reading design: writeReg.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "writeReg.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "writeReg"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : writeReg
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "E:\Project\MyDecoder.vhd" into library work
+Parsing entity <MyDecoder>.
+Parsing architecture <Behavioral> of entity <mydecoder>.
+Parsing VHDL file "E:\Project\GenReg.vhd" into library work
+Parsing package <GenReg>.
+Parsing package body <GenReg>.
+Parsing VHDL file "E:\Project\GenericReg.vhd" into library work
+Parsing entity <reg>.
+Parsing architecture <Behavioral> of entity <reg>.
+Parsing VHDL file "E:\Project\Decoder.vhd" into library work
+Parsing package <Decoder>.
+Parsing VHDL file "E:\Project\writeReg.vhd" into library work
+Parsing entity <writeReg>.
+Parsing architecture <Behavioral> of entity <writereg>.
+WARNING:HDLCompiler:946 - "E:\Project\writeReg.vhd" Line 91: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:\Project\writeReg.vhd" Line 92: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:\Project\writeReg.vhd" Line 93: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:\Project\writeReg.vhd" Line 94: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:\Project\writeReg.vhd" Line 96: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:\Project\writeReg.vhd" Line 97: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:\Project\writeReg.vhd" Line 98: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:\Project\writeReg.vhd" Line 99: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:\Project\writeReg.vhd" Line 101: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:\Project\writeReg.vhd" Line 102: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:\Project\writeReg.vhd" Line 103: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:\Project\writeReg.vhd" Line 104: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:\Project\writeReg.vhd" Line 106: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:\Project\writeReg.vhd" Line 107: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:\Project\writeReg.vhd" Line 108: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:\Project\writeReg.vhd" Line 109: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:\Project\writeReg.vhd" Line 111: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:\Project\writeReg.vhd" Line 112: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:\Project\writeReg.vhd" Line 113: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:\Project\writeReg.vhd" Line 114: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:\Project\writeReg.vhd" Line 116: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:\Project\writeReg.vhd" Line 117: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:\Project\writeReg.vhd" Line 118: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:\Project\writeReg.vhd" Line 119: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:\Project\writeReg.vhd" Line 121: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:\Project\writeReg.vhd" Line 122: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:\Project\writeReg.vhd" Line 123: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:\Project\writeReg.vhd" Line 124: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:\Project\writeReg.vhd" Line 126: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:\Project\writeReg.vhd" Line 127: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:\Project\writeReg.vhd" Line 128: Actual for formal port lod is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:\Project\writeReg.vhd" Line 129: Actual for formal port lod is neither a static name nor a globally static expression
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <writeReg> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <MyDecoder> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <reg> (architecture <Behavioral>) with generics from library <work>.
+WARNING:Xst:2972 - "E:\Project\writeReg.vhd" line 89. All outputs of instance <Dcdr> of block <MyDecoder> are unconnected in block <writeReg>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Project\writeReg.vhd" line 91. All outputs of instance <R0> of block <reg> are unconnected in block <writeReg>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Project\writeReg.vhd" line 92. All outputs of instance <R1> of block <reg> are unconnected in block <writeReg>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Project\writeReg.vhd" line 93. All outputs of instance <R2> of block <reg> are unconnected in block <writeReg>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Project\writeReg.vhd" line 94. All outputs of instance <R3> of block <reg> are unconnected in block <writeReg>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Project\writeReg.vhd" line 96. All outputs of instance <R4> of block <reg> are unconnected in block <writeReg>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Project\writeReg.vhd" line 97. All outputs of instance <R5> of block <reg> are unconnected in block <writeReg>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Project\writeReg.vhd" line 98. All outputs of instance <R6> of block <reg> are unconnected in block <writeReg>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Project\writeReg.vhd" line 99. All outputs of instance <R7> of block <reg> are unconnected in block <writeReg>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Project\writeReg.vhd" line 101. All outputs of instance <R8> of block <reg> are unconnected in block <writeReg>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Project\writeReg.vhd" line 102. All outputs of instance <R9> of block <reg> are unconnected in block <writeReg>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Project\writeReg.vhd" line 103. All outputs of instance <R10> of block <reg> are unconnected in block <writeReg>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Project\writeReg.vhd" line 104. All outputs of instance <R11> of block <reg> are unconnected in block <writeReg>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Project\writeReg.vhd" line 106. All outputs of instance <R12> of block <reg> are unconnected in block <writeReg>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Project\writeReg.vhd" line 107. All outputs of instance <R13> of block <reg> are unconnected in block <writeReg>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Project\writeReg.vhd" line 108. All outputs of instance <R14> of block <reg> are unconnected in block <writeReg>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Project\writeReg.vhd" line 109. All outputs of instance <R15> of block <reg> are unconnected in block <writeReg>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Project\writeReg.vhd" line 111. All outputs of instance <R16> of block <reg> are unconnected in block <writeReg>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Project\writeReg.vhd" line 112. All outputs of instance <R17> of block <reg> are unconnected in block <writeReg>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Project\writeReg.vhd" line 113. All outputs of instance <R18> of block <reg> are unconnected in block <writeReg>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Project\writeReg.vhd" line 114. All outputs of instance <R19> of block <reg> are unconnected in block <writeReg>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Project\writeReg.vhd" line 116. All outputs of instance <R20> of block <reg> are unconnected in block <writeReg>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Project\writeReg.vhd" line 117. All outputs of instance <R21> of block <reg> are unconnected in block <writeReg>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Project\writeReg.vhd" line 118. All outputs of instance <R22> of block <reg> are unconnected in block <writeReg>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Project\writeReg.vhd" line 119. All outputs of instance <R23> of block <reg> are unconnected in block <writeReg>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Project\writeReg.vhd" line 121. All outputs of instance <R24> of block <reg> are unconnected in block <writeReg>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Project\writeReg.vhd" line 122. All outputs of instance <R25> of block <reg> are unconnected in block <writeReg>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Project\writeReg.vhd" line 123. All outputs of instance <R26> of block <reg> are unconnected in block <writeReg>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Project\writeReg.vhd" line 124. All outputs of instance <R27> of block <reg> are unconnected in block <writeReg>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Project\writeReg.vhd" line 126. All outputs of instance <R28> of block <reg> are unconnected in block <writeReg>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Project\writeReg.vhd" line 127. All outputs of instance <R29> of block <reg> are unconnected in block <writeReg>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Project\writeReg.vhd" line 128. All outputs of instance <R30> of block <reg> are unconnected in block <writeReg>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Project\writeReg.vhd" line 129. All outputs of instance <R31> of block <reg> are unconnected in block <writeReg>. Underlying logic will be removed.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <writeReg>.
+    Related source file is "E:\Project\writeReg.vhd".
+        B = 32
+INFO:Xst:3210 - "E:\Project\writeReg.vhd" line 91: Output port <O> of the instance <R0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Project\writeReg.vhd" line 92: Output port <O> of the instance <R1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Project\writeReg.vhd" line 93: Output port <O> of the instance <R2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Project\writeReg.vhd" line 94: Output port <O> of the instance <R3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Project\writeReg.vhd" line 96: Output port <O> of the instance <R4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Project\writeReg.vhd" line 97: Output port <O> of the instance <R5> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Project\writeReg.vhd" line 98: Output port <O> of the instance <R6> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Project\writeReg.vhd" line 99: Output port <O> of the instance <R7> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Project\writeReg.vhd" line 101: Output port <O> of the instance <R8> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Project\writeReg.vhd" line 102: Output port <O> of the instance <R9> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Project\writeReg.vhd" line 103: Output port <O> of the instance <R10> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Project\writeReg.vhd" line 104: Output port <O> of the instance <R11> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Project\writeReg.vhd" line 106: Output port <O> of the instance <R12> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Project\writeReg.vhd" line 107: Output port <O> of the instance <R13> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Project\writeReg.vhd" line 108: Output port <O> of the instance <R14> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Project\writeReg.vhd" line 109: Output port <O> of the instance <R15> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Project\writeReg.vhd" line 111: Output port <O> of the instance <R16> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Project\writeReg.vhd" line 112: Output port <O> of the instance <R17> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Project\writeReg.vhd" line 113: Output port <O> of the instance <R18> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Project\writeReg.vhd" line 114: Output port <O> of the instance <R19> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Project\writeReg.vhd" line 116: Output port <O> of the instance <R20> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Project\writeReg.vhd" line 117: Output port <O> of the instance <R21> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Project\writeReg.vhd" line 118: Output port <O> of the instance <R22> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Project\writeReg.vhd" line 119: Output port <O> of the instance <R23> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Project\writeReg.vhd" line 121: Output port <O> of the instance <R24> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Project\writeReg.vhd" line 122: Output port <O> of the instance <R25> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Project\writeReg.vhd" line 123: Output port <O> of the instance <R26> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Project\writeReg.vhd" line 124: Output port <O> of the instance <R27> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Project\writeReg.vhd" line 126: Output port <O> of the instance <R28> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Project\writeReg.vhd" line 127: Output port <O> of the instance <R29> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Project\writeReg.vhd" line 128: Output port <O> of the instance <R30> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Project\writeReg.vhd" line 129: Output port <O> of the instance <R31> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <writeReg> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <writeReg> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block writeReg, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : writeReg.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-3 
+
+
+Slice Logic Utilization: 
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:      0
+   Number with an unused Flip Flop:       0  out of      0         
+   Number with an unused LUT:             0  out of      0         
+   Number of fully used LUT-FF pairs:     0  out of      0         
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                          40
+ Number of bonded IOBs:                   0  out of    210     0%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.83 secs
+ 
+--> 
+
+Total memory usage is 348976 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   65 (   0 filtered)
+Number of infos    :   32 (   0 filtered)
+

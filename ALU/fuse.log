@@ -1,0 +1,40 @@
+Running: E:\XilinxFiles\14.5\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/pc/Desktop/projectArchitcure/Project/ALUTest_isim_beh.exe -prj C:/Users/pc/Desktop/projectArchitcure/Project/ALUTest_beh.prj work.ALUTest 
+ISim P.58f (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/pc/Desktop/projectArchitcure/Project/TheMux4.vhd" into library work
+Parsing VHDL file "C:/Users/pc/Desktop/projectArchitcure/Project/TheMux2.vhd" into library work
+Parsing VHDL file "C:/Users/pc/Desktop/projectArchitcure/Project/TheAdder.vhd" into library work
+Parsing VHDL file "C:/Users/pc/Desktop/projectArchitcure/Project/Mux4.vhd" into library work
+Parsing VHDL file "C:/Users/pc/Desktop/projectArchitcure/Project/Mux2.vhd" into library work
+Parsing VHDL file "C:/Users/pc/Desktop/projectArchitcure/Project/Adder.vhd" into library work
+Parsing VHDL file "C:/Users/pc/Desktop/projectArchitcure/Project/MyALU_1bit.vhd" into library work
+Parsing VHDL file "C:/Users/pc/Desktop/projectArchitcure/Project/ALU_1bit.vhd" into library work
+WARNING:HDLCompiler:946 - "C:/Users/pc/Desktop/projectArchitcure/Project/ALU_1bit.vhd" Line 39: Actual for formal port i1 is neither a static name nor a globally static expression
+Parsing VHDL file "C:/Users/pc/Desktop/projectArchitcure/Project/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/pc/Desktop/projectArchitcure/Project/ALUTest.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 160928 KB
+Fuse CPU Usage: 296 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package myalu_1bit
+Compiling package themux4
+Compiling package themux2
+Compiling package theadder
+Compiling architecture behavioral of entity mux2 [mux2_default]
+Compiling architecture behavioral of entity Adder [adder_default]
+Compiling architecture behavioral of entity mux4 [mux4_default]
+Compiling architecture behavioral of entity ALU_1bit [alu_1bit_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavior of entity alutest
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 19 VHDL Units
+Built simulation executable C:/Users/pc/Desktop/projectArchitcure/Project/ALUTest_isim_beh.exe
+Fuse Memory Usage: 188812 KB
+Fuse CPU Usage: 452 ms

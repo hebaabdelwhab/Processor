@@ -1,0 +1,15 @@
+xst -intstyle ise -ifn "E:/RegisterFile/ReadRegister.xst" -ofn "E:/RegisterFile/ReadRegister.syr" 
+xst -intstyle ise -ifn "E:/RegisterFile/ReadRegister.xst" -ofn "E:/RegisterFile/ReadRegister.syr" 
+xst -intstyle ise -ifn "E:/RegisterFile/ReadRegister.xst" -ofn "E:/RegisterFile/ReadRegister.syr" 
+xst -intstyle ise -ifn "E:/RegisterFile/ReadRegister.xst" -ofn "E:/RegisterFile/ReadRegister.syr" 
+xst -intstyle ise -ifn "E:/RegisterFile/ReadRegister.xst" -ofn "E:/RegisterFile/ReadRegister.syr" 
+xst -intstyle ise -ifn "E:/RegisterFile/ReadRegister.xst" -ofn "E:/RegisterFile/ReadRegister.syr" 
+xst -intstyle ise -ifn "E:/RegisterFile/ReadRegister.xst" -ofn "E:/RegisterFile/ReadRegister.syr" 
+xst -intstyle ise -ifn "E:/RegisterFile/ReadRegister.xst" -ofn "E:/RegisterFile/ReadRegister.syr" 
+xst -intstyle ise -ifn "E:/RegisterFile/ReadRegister.xst" -ofn "E:/RegisterFile/ReadRegister.syr" 
+xst -intstyle ise -ifn "E:/RegisterFile/ReadRegister.xst" -ofn "E:/RegisterFile/ReadRegister.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 ReadRegister.ngc ReadRegister.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ReadRegister_map.ncd ReadRegister.ngd ReadRegister.pcf 
+par -w -intstyle ise -ol high -mt off ReadRegister_map.ncd ReadRegister.ncd ReadRegister.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ReadRegister.twx ReadRegister.ncd -o ReadRegister.twr ReadRegister.pcf 
+xst -intstyle ise -ifn "E:/RegisterFile/ReadRegister.xst" -ofn "E:/RegisterFile/ReadRegister.syr" 

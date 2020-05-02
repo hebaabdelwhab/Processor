@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/Project/ALU.xst" -ofn "E:/Project/ALU.syr" 

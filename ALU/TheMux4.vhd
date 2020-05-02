@@ -1,0 +1,18 @@
+------------------ 4x1 MUX Package -----------------
+
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+
+PACKAGE TheMux4 IS
+	COMPONENT Mux4 IS
+		PORT (I0: IN  STD_LOGIC;
+				I1: IN  STD_LOGIC;
+				I2: IN  STD_LOGIC;
+				I3: IN  STD_LOGIC;
+				S : IN  STD_LOGIC_VECTOR (1 DOWNTO 0);
+				O : OUT STD_LOGIC);
+	END COMPONENT;
+END TheMux4;
+
+PACKAGE BODY TheMux4 IS 
+END TheMux4;

@@ -1,0 +1,3 @@
+vhdtdtfi -lib work Mux2.vhd -prj Project -o Mux2.spl -module Mux2 -template E:/XilinxFiles/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 Mux2.spl E:/Project/Mux2.sym 
+vhdtdtfi -prj Project -o E:/Project/Mux2.vhi -module Mux2 -template E:/XilinxFiles/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Mux2.vhd 

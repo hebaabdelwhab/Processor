@@ -1,0 +1,7 @@
+work	"Mux32.vhd"
+work	"MyDecoder.vhd"
+work	"ReadRegister.vhd"
+work	"Reg.vhd"
+work	"TheDecoder.vhd"
+work	"TheMux32.vhd"
+work	"TheRegister.vhd"
